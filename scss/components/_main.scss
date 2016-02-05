@@ -17,8 +17,9 @@ html {
 	box-sizing: inherit;
 }
 
+
 body{
-  font-family: 'Dosis', sans-serif;
+  font-family: sans-serif;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -40,12 +41,12 @@ header {
 
 .toggle-btn,
 .close-btn{
-    color:;
+    color: $text-color;
     text-decoration: none;
     height: 40px;
     width:40px;
     &:before{
-        border: 1px solid $teal;
+        border: 1px solid $light-grey;
         display: inline-block;
         padding: 13px 11px;
         height: 40px;
