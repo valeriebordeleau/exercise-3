@@ -497,6 +497,10 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+.i-close {
+  padding: 2em;
+}
+
 header {
   padding: 0 1em;
   position: relative;
@@ -506,6 +510,28 @@ header {
   position: absolute;
   right: 1em;
   top: 0;
+  background-color: #336159;
+  padding: 40px 0px 40px 0px;
+  transition: all 300ms ease-in-out;
+}
+
+.toggle-btn:hover {
+  color: #336159;
+  background-color: #56A497;
+}
+
+.close-btn {
+  position: absolute;
+  right: 1.25em;
+  top: 0;
+  background-color: #336159;
+  padding: 20px 40px 40px 0px;
+  transition: all 300ms ease-in-out;
+}
+
+.close-btn:hover {
+  color: #336159;
+  background-color: #56A497;
 }
 
 .toggle-btn,
@@ -518,7 +544,6 @@ header {
 
 .toggle-btn:before,
 .close-btn:before {
-  border: 1px solid #56A497;
   display: inline-block;
   padding: 13px 11px;
   height: 40px;
@@ -534,24 +559,28 @@ header {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
+.title {
+  color: #336159;
+}
+
 .navigation ul {
-  padding: 0;
+  padding: 2.5em 0em 0em 0em;
 }
 
 .navigation ul li {
   list-style-type: none;
 }
 
-.navigation ul li:first-child a {
-  border-top: 0.5px solid #56A497;
-}
-
 .navigation ul a {
+  color: #56A497;
   display: block;
   text-decoration: none;
-  padding: .5em 1.5em;
-  border-bottom: 0.5px solid #56A497;
+  padding: 1em 3em;
   text-align: center;
+}
+
+.navigation ul a:hover {
+  color: #336159;
 }
 
 @media only screen and (max-width: 60em) {
