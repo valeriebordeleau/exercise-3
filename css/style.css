@@ -592,11 +592,35 @@ header {
 
 .navigation ul a:hover {
   color: #336159;
+  font-size: 1.25em;
   text-decoration: underline;
   text-decoration-style: dotted;
 }
 
 @media only screen and (max-width: 60em) {
+  .navigation ul {
+    padding: 2.5em 0em 0em 0em;
+  }
+  .navigation ul li {
+    list-style-type: none;
+  }
+  .navigation ul a {
+    color: #56A497;
+    background-color: #daece9;
+    display: block;
+    text-decoration: none;
+    padding: 1em 3em;
+    text-align: center;
+    transition: all 300ms ease-in-out;
+  }
+  .navigation ul a:hover {
+    color: #336159;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    background-image: url(../artwork/x.svg);
+    background-size: 2.5em;
+  }
   .site-wrapper {
     position: relative;
     overflow: hidden;
