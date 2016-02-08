@@ -109,6 +109,7 @@ header {
 }
 
 @media only screen and (max-width: 60em){
+    
     .site-wrapper{
         position: relative;
         overflow: hidden;
@@ -144,10 +145,37 @@ header {
 }
 
 @media only screen and (min-width: 60em){
+   .title {
+       margin: 0;
+       padding:0;
+   }
+    
+    .navigation ul{
+    display: inherit;
+    padding: 0;
+    margin: 0;
+    li{
+        display: inline-block;
+        text-align: right;
+        &:first-child a{
+        }
+    }
+    a{
+        color: $teal;
+        text-decoration: none;
+        padding: .5em;
+        text-align: center;
+        &:hover{
+            color: $drkteal;
+        }
+    }
+}
+    
     .toggle-btn,
     .close-btn{
         display: none;
     }
+    
 }
 
 //so there's no movement without JS
