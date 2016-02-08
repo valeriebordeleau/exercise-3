@@ -497,6 +497,14 @@ body.noscript .toggle-btn {
   display: none;
 }
 
+.navbar {
+  background-color: #daece9;
+  border-bottom: solid 5px #cae3df;
+  background-image: url(../artwork/x.svg);
+  background-size: 2em;
+  overflow: visible;
+}
+
 .i-close {
   padding: 2em;
 }

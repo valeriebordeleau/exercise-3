@@ -29,7 +29,13 @@ body{
 }
 
 
-
+.navbar {
+    background-color: $ltteal;
+    border-bottom: solid 5px $lightteal;
+    background-image: url(../artwork/x.svg);
+    background-size: 2em;
+    overflow: visible;
+}
 
 .i-close {
    padding: 2em;
