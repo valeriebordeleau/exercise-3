@@ -28,6 +28,10 @@ body{
   }
 }
 
+.item {
+    color: black;
+}
+
 header {
   padding: 0 1em;
   position: relative;
@@ -41,12 +45,11 @@ header {
 
 .toggle-btn,
 .close-btn{
-    color: $text-color;
+    color: $teal;
     text-decoration: none;
     height: 40px;
     width:40px;
     &:before{
-        border: 1px solid $light-grey;
         display: inline-block;
         padding: 13px 11px;
         height: 40px;
@@ -57,20 +60,24 @@ header {
     }
 }
 
+a {
+    color: black;
+}
 
 .navigation ul{
     padding: 0;
     li{
         list-style-type: none;
         &:first-child a{
-            border-top:.5px solid $light-grey;
+            border-top:.5px solid $teal;
         }
     }
     a{
+        color: black;
         display: block;
         text-decoration: none;
         padding: .5em 1.5em;
-        border-bottom: .5px solid $light-grey;
+        border-bottom: .5px solid $teal;
         text-align: center;
     }
 }
