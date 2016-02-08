@@ -526,6 +526,7 @@ header {
 .toggle-btn:hover {
   color: #336159;
   background-color: #56A497;
+  border-radius: 0px 0px 15px 0px;
 }
 
 .close-btn {
@@ -540,6 +541,7 @@ header {
 .close-btn:hover {
   color: #336159;
   background-color: #56A497;
+  border-radius: 0px 0px 15px 0px;
 }
 
 .toggle-btn,
@@ -585,10 +587,13 @@ header {
   text-decoration: none;
   padding: 1em 3em;
   text-align: center;
+  transition: all 300ms ease-in-out;
 }
 
 .navigation ul a:hover {
   color: #336159;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
 
 @media only screen and (max-width: 60em) {
